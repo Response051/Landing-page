@@ -1,8 +1,24 @@
+.main-row{
+    
+    background-color: rgb(73, 67, 67);
+    
+}
+.sub-row{
+    width: 60%;
+    margin: auto;
+    padding: 1px;
+    display: block;
+    
+
+}
+
+
 .first-row{
     background-color: #F8F8FF;
     font-size: 3rem;
     font-weight: 900;
     color: #0000CD;
+
 }
 
 .second-row{
@@ -26,4 +42,27 @@
 #row4{
     font-size: 24px;
     color: #f9faf8;
+}
+
+.third-row{
+    background-color: #FAF0E6;
+}
+#row5{
+    color: #3882f6;
+}
+#row6{
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.fourth-row{
+    background-color: #D3D3D3;
+}
+#row7{
+    color: #88acf5
+}
+#row8{
+    font-size: 36px;
+    font-style: italic;
+    color: #88acf5;
 }
