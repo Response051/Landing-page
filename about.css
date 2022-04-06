@@ -67,8 +67,7 @@ span{
 
 /* This is the start of the second landing page */
 
-
-* {
+#containerA {
     background-color: 	rgb(1, 1, 32);
     box-sizing: border-box;
     margin: 0;
@@ -82,13 +81,18 @@ li, nav, h1, p, button {
 
 }
 
-nav{
+#contA{
     font-size: 30px;
     font-style: italic;
 }
+
+p {
+    padding-left: 5rem;
+}
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 15px;
+    padding-left: 5rem;
  }
 
 .container1 {
@@ -108,19 +112,83 @@ h1 {
 }
 button{
     background-color: rgb(86, 42, 206);
+    color: rgb(247, 191, 191);
     padding: 9px 25px;
     border: none;
-    border-radius: 50px;
-    margin-top: 15px;
+    border-radius: 10px;
+    margin-top: none;
+    margin-left: 5rem;
+    margin-bottom: 7rem;
+}
+
+.contB {
+    float: right;
+    width: 30rem;
+    height: 10rem;
+    padding-right: 46px;
+    margin-top: -5rem;
+}
+
+#pab {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: rgb(250, 169, 62);
+    padding: 40px 30px;
+
+}
+
+#pa {
+    color: rgb(2, 2, 73);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#pb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    color: rgb(1, 1, 10);
+    font-weight: solid;
+    font-size: 18px;
+    list-style: none;
 }
 
 img {
-    float: right;
-    width: 30rem;
-    height: 15rem;
-    padding-right: 46px;
-    margin-top: -4rem;
+    width: 17rem;
+    height: 10rem;
+    padding: 12px;
+    border-radius: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
