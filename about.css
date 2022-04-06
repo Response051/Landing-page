@@ -68,20 +68,67 @@ span{
 /* This is the start of the second landing page */
 
 
-header {
-    font: 24px;
-    color: whitesmoke;
-    background: 	#2F4F4F;
+* {
+    background-color: 	#2F4F4F;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, nav, h1, p, button {
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+
 }
 
 .container1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 30px 10%;
+    
+}
+.container2{
+    list-style: none;
+}
+.container2 li{
+    display: inline-block;
+    padding: 0px 20px;
 
 }
+button{
+    background-color: rgb(86, 42, 206);
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+}
+
+img {
+    float: right;
+    width: 30rem;
+    height: 15rem;
+    padding-right: 46px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
