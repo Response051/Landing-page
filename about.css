@@ -64,3 +64,49 @@ span{
     font-size: 20px;
     background: darkgreen;
 }
+
+/* This is the start of the second landing page */
+
+
+header {
+    font: 24px;
+    color: whitesmoke;
+    background: 	#2F4F4F;
+    box-sizing: border-box;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
