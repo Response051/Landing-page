@@ -69,7 +69,7 @@ span{
 
 
 * {
-    background-color: 	#2F4F4F;
+    background-color: 	rgb(1, 1, 32);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -81,6 +81,15 @@ li, nav, h1, p, button {
     font-size: 20px;
 
 }
+
+nav{
+    font-size: 30px;
+    font-style: italic;
+}
+h1 {
+    font-size: 3rem;
+    margin-top: 15px;
+ }
 
 .container1 {
     display: flex;
@@ -102,6 +111,7 @@ button{
     padding: 9px 25px;
     border: none;
     border-radius: 50px;
+    margin-top: 15px;
 }
 
 img {
@@ -109,6 +119,7 @@ img {
     width: 30rem;
     height: 15rem;
     padding-right: 46px;
+    margin-top: -4rem;
 }
 
 
