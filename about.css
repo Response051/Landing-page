@@ -184,10 +184,11 @@ img {
 }
 
 #la {
-    background-color: rgb(201, 179, 179);
-    display: block;
-    margin: 0; 
-    padding: 100px;  
+    background-color: rgb(99, 33, 66);
+    display: block; 
+    padding: 100px; 
+    padding-left: 7rem; 
+    margin-top: -2rem;
     margin-bottom: 15rem;
 
 }
@@ -195,11 +196,12 @@ img {
 #lb {
     text-align: center;
     padding: 0.5rem;
-    padding-top: 70px;
-    margin: 0 80px;
-    border: 3px;
+    padding-top: -10rem;
+    margin: -2.5rem 80px;
+    margin-right: 10rem;
+    border: auto;
     border-radius: 20px;
-    background-color: blue;
+    background-color: rgb(97, 97, 226);
 
 }
 
@@ -215,6 +217,24 @@ img {
     margin: -2.5rem;
     text-align: left;
     font-weight: 500;
+}
+
+#le {
+    color: rgb(252, 231, 231);
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+#as {
+    background-color: rgb(14, 0, 0);
+    margin-top: -15rem;
+}
+#as p {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    padding: 3rem;
 }
 
 
